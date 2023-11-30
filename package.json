@@ -1,0 +1,19 @@
+{
+  "name": "seleniumjs",
+  "version": "1.0.0",
+  "description": "Automated tests using Selenium JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-timeouts --parallel --reporter mochawesome --require mochawesome/register --reporter-options reportDir=C:/Users/admin/Desktop/SeleniumJS/testReports"
+  },
+  "author": "Yergazy N",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "selenium-webdriver": "^4.15.0"
+  },
+    "devDependencies": {}
+  
+}
